@@ -1,6 +1,6 @@
 FROM golang:1-alpine
 
-RUN apk --no-cache add ca-certificates
+RUN apk --no-cache add ca-certificates curl
 
 WORKDIR "/go/src/github.com/wcharczuk/echo"
 
